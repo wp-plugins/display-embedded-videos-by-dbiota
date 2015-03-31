@@ -10,7 +10,7 @@ License: GPL2
 You can display the embedded Youtube videos within your site.
 
 == Description ==
-You can display one, some or all the youtube embedded videos in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting to get your visitors engaged (each day they visit the video list, it will show different random videos from your site).
+You can display one, some or all the youtube videos previously embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting to get your visitors engaged (each day they visit the video list, it will show different random videos from your site).
 
 It just works with a shortcode, which accepts several parameters. The shortcodes can be easily created in the plugin Settings Page with a Shortcode Wizard
 
@@ -30,7 +30,7 @@ Plugin page: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedde
 
 It allows you to show your embedded youtube videos somewhere in your site (widgets or content) by using shortcodes
 
-= Does it detetect all videos posted? =
+= Will it detect and show all videos posted? =
 
 Once you activate the plugin, it will detect automatically all new videos posted. To detect videos posted previous the plugin activation, you have a button in the plugin settings. Once detected, the process won\'t be needed to run ever.
 
