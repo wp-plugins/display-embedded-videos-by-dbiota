@@ -1,4 +1,5 @@
 === Display Embedded Videos by D.Biota ===
+Contributors: Diegobr
 Tags: Youtube, Video, Embeds, Video Gallery
 Donate link: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 Requires at least: 3.0
