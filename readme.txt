@@ -59,5 +59,5 @@ No, you won´t. They are compatible and will work in the same way untill now. The
 
 
 == Screenshots ==
-1. 1. Videos displayed 1 by column
-2. 2. Videos displayed 3 by column
+1. Videos displayed 3 by column
+2. Videos displayed 1 by column
