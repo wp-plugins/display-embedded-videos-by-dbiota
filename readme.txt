@@ -7,12 +7,12 @@ Tested up to: 4.1.1
 Stable tag: trunk
 License: GPL2
 
-You can display the embedded Youtube videos within your site.
+You can display a gallery of the embedded Youtube videos within your site.
 
 == Description ==
-You can display one, some or all the youtube videos previously embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting to get your visitors engaged (each day they visit the video list, it will show different random videos from your site).
+You can display one, some or all the youtube videos previously embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting and powerful to get your visitors engaged (each day they visit the video list, it will show different random videos from your site).
 
-It just works with a shortcode, which accepts several parameters. The shortcodes can be easily created in the plugin Settings Page with a Shortcode Wizard
+It just works with shortcodes, which accepts several parameters. The shortcodes can be easily created in the plugin Settings Page with a Shortcode Wizard
 
 Shortcode example:
 
