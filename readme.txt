@@ -32,12 +32,12 @@ It allows you to show your embedded youtube videos somewhere in your site (widge
 
 = Will it detect and show all videos posted? =
 
-Once you activate the plugin, it will detect automatically all new videos posted. To detect videos posted previous the plugin activation, you have a button in the plugin settings. Once detected, the process won\'t be needed to run ever.
+Once you activate the plugin, it will detect automatically all new videos posted. To detect videos posted previous the plugin activation, you have a button in the plugin settings. Once detected, the process won't be needed to run ever.
 
 = Can I add my own CSS to customize the video titles? =
 
 This plugin will load devbdb.css from your theme\'s directory if it exists.
-If it doesn\'t exists, it will just load the default devbdb.css that comes with Display Embedded Videos by D.Biota.
+If it doesn't exists, it will just load the default devbdb.css that comes with Display Embedded Videos by D.Biota.
 This will allow you to upgrade Display Embedded Videos by D.Biota without worrying about overwriting your video title styles that you have created.
 
 = How does de daily_random mode work? =

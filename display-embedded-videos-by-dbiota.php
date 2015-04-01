@@ -1,7 +1,7 @@
 <?php
 /**
  *Plugin Name: Display Embedded Videos by D.Biota
- *Description: You can display the embedded Youtube videos along the blog.
+ *Description: You can display the embedded Youtube videos within your site.
  *Version: 1.0
  *Author: Diego Biota
  *License: GPL2
