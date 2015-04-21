@@ -1,13 +1,13 @@
 <?php
 /**
  *Plugin Name: Display Embedded Videos by D.Biota
- *Description: You can display the embedded Youtube videos within your site.
- *Version: 1.0
+ *Description: You can display a gallery of the embedded Youtube and Vimeo videos within your site.
+ *Version: 2.0
  *Author: Diego Biota
  *License: GPL2
  */
 
-/*Date: March 2015*/
+/*Date: April 2015*/
 
 
 // no direct links allowed
@@ -142,18 +142,25 @@ function display_embedded_videos_by_db_page() {
 			<div style="float:left;">
 			<h3>Shortcodes Wizard</h3> 
 			<p>Create your shortcode/s and paste it/them wherever you want your videos displayed.</p>
-			Ordering mode: <select id="select_mode">
+			<div style="overflow:hidden;">
+			<div style="width:48%;padding:2px 8px 0 0;float:left; text-align:right;">Ordering mode:</div> <div style="width:48%;padding:0 10px 0 0;float:right;"><select id="select_mode">
 				<option value="chronological" >chronological</option>
 				<option value="daily_random" >daily_random</option>
-			</select></br>
-			Number of videos to display: <input type="text" id="input_vids_to_display" size="3" value="4"></br>
-			Number of videos per line: <input type="text" id="input_vids_per_line" size="3" value="1"></br>
-			Show "More..." button: <select id="select_more">
+			</select></div></br>
+			</div>
+			<div style="overflow:hidden;">
+			<div style="width:48%;padding:2px 8px 0 0;float:left; text-align:right;">Number of videos to display: </div> <div style="width:48%;padding:0 10px 0 0;float:right;"> <input type="text" id="input_vids_to_display" size="3" value="4"></div></br>
+			</div>
+			<div style="overflow:hidden;">
+			<div style="width:48%;padding:2px 8px 0 0;float:left;text-align:right;">Number of videos per line: </div> <div style="width:48%;padding:0 10px 0 0;float:right;"> <input type="text" id="input_vids_per_line" size="3" value="1"></div></br>
+			</div>
+			<div style="overflow:hidden;">
+			<div style="width:48%;padding:2px 8px 0 0;float:left;text-align:right;">Show "More..." button: </div> <div style="width:48%;padding:0 10px 0 0;float:right;"> <select id="select_more">
 				<option value="no" >no</option>
 				<option value="yes" >yes</option>
-			</select></br>
-
-
+			</select></div></br>
+			</div>
+			<div style=”clear:both;”></div>  <!-- fin para estructura en columnas -->
 			
 			
 			<p class="submit">

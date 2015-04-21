@@ -68,7 +68,12 @@ function devdb_post_video_records( $posted_videos_records, $offset, $vids_to_dis
 			if ($i < $vids_per_line) {
 				$html .= '<div class="cont_video_titulo" style="width:'.$percent_width.'%;padding:0 '.$percent_right_padding.'% 0 0;float:left;">';
 				$html .= '<div class="videoWrapper">';
-				$html .= '<iframe width="640" height="360" id="ytplayer" src="https://www.youtube.com/embed/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen></iframe>';
+				if ($posted_video->vid_provider == 'youtube') {
+					$html .= '<iframe width="640" height="360" id="ytplayer" src="https://www.youtube.com/embed/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen></iframe>';
+				}
+				if ($posted_video->vid_provider == 'vimeo') {
+					$html .= '<iframe width="640" height="360" src="https://player.vimeo.com/video/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>';
+				}	
 				$html .= '</div>';
 				$html .= '<div class="video_post_title"><a href="'.$url_post.'">'.$title.'</a></div>'; 
 				$html .= '</div>';
@@ -76,7 +81,12 @@ function devdb_post_video_records( $posted_videos_records, $offset, $vids_to_dis
 			} else {
 				$html .= '<div class="cont_video_titulo" style="width:'.$percent_width.'%;padding:0 0 0 0;float:right;">';
 				$html .= '<div class="videoWrapper">';
-				$html .= '<iframe width="640" height="360" id="ytplayer" src="https://www.youtube.com/embed/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen></iframe>';
+				if ($posted_video->vid_provider == 'youtube') {
+					$html .= '<iframe width="640" height="360" id="ytplayer" src="https://www.youtube.com/embed/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen></iframe>';
+				}
+				if ($posted_video->vid_provider == 'vimeo') {
+					$html .= '<iframe width="640" height="360" src="https://player.vimeo.com/video/'.$posted_video->vid_url.'" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>';
+				}
 				$html .= '</div>';
 				$html .= '<div class="video_post_title"><a href="'.$url_post.'">'.$title.'</a></div>';
 				$html .= '</div>';
@@ -229,7 +239,7 @@ if ($is_saving_post) {
 if ( ( $post_status == 'publish' ) AND ($post_type != 'revision') AND ($post_type != 'attachment') AND ($post_type != 'nav_menu_item') ) {  //Nos aseguramos de que esta publicado, y de que no es una revision
 
 
-	//DETECCIÓN YOUTUBE
+	//INICIO DETECCIÓN YOUTUBE
 	$vid_provider = 'youtube';
 	
 			$result_youtube = preg_match_all('~
@@ -271,7 +281,6 @@ if ( ( $post_status == 'publish' ) AND ($post_type != 'revision') AND ($post_typ
 						$table_name, 
 						array(
 							'vid_url' => $match[1],
-							//'vid_url' => substr($match[0], strpos($match[0], '=')+1, 11), //En vez del 32, poner la direccion del =
 							'post_title' => $post_title,
 							'post_url' => $post_url,
 							'post_type' => $post_type,
@@ -298,6 +307,73 @@ if ( ( $post_status == 'publish' ) AND ($post_type != 'revision') AND ($post_typ
 					);
 				}	
 			}
+			
+	//FIN DETECCIÓN YOUTUBE		
+		
+
+
+	//INICIO DETECCIÓN VIMEO
+	$vid_provider = 'vimeo';
+	
+			$result_vimeo = preg_match_all('/(src="|\s)https?:\/\/(?:www\.|player\.)?vimeo.com(\/video|)\/(\d+)/', $content, $matches, PREG_SET_ORDER);
+				
+				
+			if ($result_vimeo <> 0) {
+				
+				if ($post_type == 'reply') {
+					$post_title = get_the_title($post_parent);
+					$post_url = bbp_get_reply_url($post_id);
+				} else {
+					//$post_title = get_the_title( $post_id );
+					$post_url = get_permalink( $post_id );			
+				}
+				$categories = get_the_category( $post_id);
+				$tags = get_the_tags( $post_id );
+				if ( $categories == 0) { settype( $categories, "array");}
+				if ( $tags == 0) { settype( $tags, "array");}
+				$categories = serialize($categories);
+				$tags = serialize($tags);
+			
+				//insertamos los videos detectados en la base de datos
+				foreach ($matches as $match) {	
+					$wpdb->insert( 
+						$table_name, 
+						array(
+							'vid_url' => $match[3],
+							'post_title' => $post_title,
+							'post_url' => $post_url,
+							'post_type' => $post_type,
+							'post_parent' => $post_parent,
+							'post_id' => $post_id,
+							'post_tag' => $tags,
+							'post_cat' => $categories,
+							'post_time' => $post_time,
+							'vid_provider' => $vid_provider 
+							
+						), 
+						array( 
+							'%s', 
+							'%s',
+							'%s', 
+							'%s',
+							'%d', 				
+							'%d',
+							'%s',
+							'%s',
+							'%s',
+							'%s'
+						) 
+					);
+				}	
+			}
+			
+	//FIN DETECCIÓN VIMEO		
+
+
+
+		
+			
+			
 
 	
 	}
