@@ -1,0 +1,24 @@
+
+
+/*ATENTION: The next styling code arranges the videos layout displayed by this plugin. Modify it only if you know what you are doing*/
+
+		.linea_vids {
+			margin: 0 0 4% 0;
+			overflow: hidden; /*CLEARFIX*/
+			display: inline-block; /*CLEARFIX*/ /* Necessary to trigger "hasLayout" in IE */
+			display: block; /*CLEARFIX*/ /* Sets element back to block */
+		}
+	
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			padding-top: 25px;
+			height: 0;
+		}
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}

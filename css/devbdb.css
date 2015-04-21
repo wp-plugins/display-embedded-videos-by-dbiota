@@ -1,0 +1,15 @@
+		
+		
+		.video_post_title {
+			text-align:center;
+		}
+
+		.video_post_title a {		
+			text-decoration: none;
+		}
+		
+		#lpc_loadmore{
+		display: block; 
+		width: 22%; 
+		margin: 14px auto;
+		}
