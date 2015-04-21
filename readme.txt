@@ -61,9 +61,9 @@ http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d
 
 No, you won't. They are compatible and will work in the same way. The advantage with the PRO version is that you will have more options to show your videos (by category, by tag or by forum)
 
-= I have updated from version 1.0 to 2.0 and the new Vimeo video detection feature doesn't show old Vimeo videos I posted in my site =
+= I have updated from version 1.0 to 2.0 and the new Vimeo video detection feature doesn't show the Vimeo videos I posted previously in my site =
 
-Since version 2.0 is new to detect Vimeo videos, is needed to update the old videos detected database. To do so, you have to deactivate the plugin and activate it again. You will be asked to run the old videos detection the firts time, and this time previous Vimeo videos posted will be detected as well as Youtube.
+Since version 2.0 is new to detect Vimeo videos, is needed to update the old videos detected database. To do so, you have to deactivate the plugin and activate it again. You will be asked to run the old videos detection the firts time, and this time previous Vimeo videos posted will be detected as well as Youtube ones.
 
 == Screenshots ==
 1. Videos displayed 3 per column
