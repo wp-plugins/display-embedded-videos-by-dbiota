@@ -1,6 +1,6 @@
 === Display Embedded Videos by D.Biota ===
 Contributors: Diegobr
-Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Embed, 
+Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Embed, Gallery, Random, Wall, Videowall
 Donate link: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 Requires at least: 3.0
 Tested up to: 4.1.1
@@ -10,7 +10,7 @@ License: GPL2
 You can display a gallery of the embedded Youtube and Vimeo videos within your site.
 
 == Description ==
-You can display as a gallery or in a widget, one, some or all the youtube videos embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting and a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
+You can display as a gallery or in a widget, one, some or all the Youtube and Vimeo videos embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting and a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
 
 It is simple an clean, just works with shortcodes accepting several parameters. The shortcodes can be easily created in the plugin Settings Page with a Shortcode Wizard
 
