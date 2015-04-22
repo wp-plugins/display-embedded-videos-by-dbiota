@@ -16,7 +16,7 @@ It is simple an clean, just works with shortcodes that can be easily created in 
 
 = Features =
 
-*display vids chronologically, *display vids in a daily random basis, *vids collection displayed updates accordingly to new vids posted in your site, *display vids collection in posts, pages or widgets, *custom the number of vids to display, *custom the number of vids per line, *show a "Load more..." button
+* display vids chronologically, * display vids in a daily random basis, * shows titles and links to the posts where each video is posted, * vids collection displayed updates accordingly to new vids posted in your site, * display vids collection in posts, pages or widgets, * custom the number of vids to display, * custom the number of vids per line, * show a "Load more..." button
 
 Shortcode example:
 
@@ -28,7 +28,7 @@ Plugin page: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedde
 
 = PRO extra features =
 
-*display vids per specific category, *display vids per specific tag, *display vids per specific forum (bbpress)
+* display vids per specific category, * display vids per specific tag, * display vids per specific forum (bbpress)
 
 == Installation ==
 1. Upload the display-embedded-videos-by-dbiota folder to the /wp-content/plugins/ directory
@@ -75,6 +75,7 @@ Since version 2.0 is new to detect Vimeo videos, is needed to update the old vid
 == Screenshots ==
 1. Videos displayed 3 per column
 2. Videos displayed 1 per column
+3. Settings Page
 
 == Changelog ==
 
