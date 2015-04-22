@@ -3,25 +3,32 @@ Contributors: Diegobr
 Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Embed, Gallery, Random, Wall, Videowall
 Donate link: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 Requires at least: 3.0
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPL2
 
 You can display a gallery of the embedded Youtube and Vimeo videos within your site.
 
 == Description ==
-You can display as a gallery or in a widget, one, some or all the Youtube and Vimeo videos embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is more interesting and a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
+You can display as a gallery, one, some or all the Youtube and Vimeo videos embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
 
-It is simple an clean, just works with shortcodes accepting several parameters. The shortcodes can be easily created in the plugin Settings Page with a Shortcode Wizard
+It is simple an clean, just works with shortcodes that can be easily created in the plugin *Settings Page* with a *Shortcode Wizard*.
+
+= Features =
+
+*display vids chronologically, *display vids in a daily random basis, *vids collection displayed updates accordingly to new vids posted in your site, *display vids collection in posts, pages or widgets, *custom the number of vids to display, *custom the number of vids per line, *show a "Load more..." button
 
 Shortcode example:
 
-[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1"]
+[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1" more="yes"]
 
 (you can know all possible values with the Shortcodes Wizard in the Settings page of the plugin)
 
 Plugin page: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 
+= PRO extra features =
+
+*display vids per specific category, *display vids per specific tag, *display vids per specific forum (bbpress)
 
 == Installation ==
 1. Upload the display-embedded-videos-by-dbiota folder to the /wp-content/plugins/ directory
