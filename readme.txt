@@ -10,19 +10,19 @@ License: GPL2
 You can display a gallery of the embedded Youtube and Vimeo videos within your site.
 
 == Description ==
-You can display as a gallery, one, some or all the Youtube and Vimeo videos embedded in your site. They can be shown chronologically (last videos posted) or in a daily random basis, which is a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
+You can display as a gallery, one, some or all the Youtube and Vimeo videos embedded in your site. They can be shown chronologically (most recent videos posted) or in a daily random basis, which is a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
 
 It is simple an clean, just works with shortcodes that can be easily created in the plugin *Settings Page* with a *Shortcode Wizard*.
 
 = Features =
 
-* display vids chronologically
+* display vids chronologically (most recent videos posted)
 * display vids in a daily random basis
 * shows titles and links to the posts where each video is originally posted
-* vids collection displayed updates accordingly to new vids posted in your site
+* vids displayed get update accordingly to new vids posted in your site
 * you can display vids collection in posts, pages or widgets
-* custom the number of vids to display
-* custom the number of vids per line
+* choose the number of vids to display
+* choose the number of vids per line
 * show a "Load more..." button
 
 Shortcode example:
