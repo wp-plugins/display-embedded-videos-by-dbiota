@@ -18,9 +18,9 @@ It is simple an clean, just works with shortcodes that can be easily created in 
 
 * display vids chronologically
 * display vids in a daily random basis
-* shows titles and links to the posts where each video is posted
+* shows titles and links to the posts where each video is originally posted
 * vids collection displayed updates accordingly to new vids posted in your site
-* display vids collection in posts, pages or widgets
+* you can display vids collection in posts, pages or widgets
 * custom the number of vids to display
 * custom the number of vids per line
 * show a "Load more..." button
