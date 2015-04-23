@@ -12,7 +12,7 @@ You can display a gallery of the embedded Youtube and Vimeo videos within your s
 == Description ==
 You can display a gallery with one, some or all the Youtube and Vimeo videos embedded within your site. They can be shown chronologically (most recent videos posted) or in a daily random basis, which is a powerful tool to get your visitors engaged (each day they visit the video list, it will show a different selection of random videos from your site).
 
-It is simple an clean, just works with shortcodes that can be easily created in the plugin *Settings Page* with a *Shortcode Wizard*.
+It is simple and clean, just works with shortcodes that can be easily created in the plugin *Settings Page* with a *Shortcode Wizard*.
 
 = Features =
 
@@ -27,7 +27,7 @@ It is simple an clean, just works with shortcodes that can be easily created in 
 
 Shortcode example:
 
-'[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1" more="yes"]'
+‘[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1" more="yes"]’
 
 (you can know all possible values with the Shortcodes Wizard in the Settings page of the plugin)
 
