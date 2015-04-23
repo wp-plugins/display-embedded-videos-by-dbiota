@@ -27,7 +27,7 @@ It is simple and clean, just works with shortcodes that can be easily created in
 
 Shortcode example:
 
-‘[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1" more="yes"]’
+`[display_embedded_videos mode="daily_random" vids_to_display="4" vids_per_line="1" more="yes"]`
 
 (you can know all possible values with the Shortcodes Wizard in the Settings page of the plugin)
 
