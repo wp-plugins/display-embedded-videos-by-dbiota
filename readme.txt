@@ -1,6 +1,6 @@
 === Display Embedded Videos by D.Biota ===
 Contributors: Diegobr
-Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Gallery, Embed, Oembed, Embedding,  Embed videos, Embed youtube, Gallery, Random videos, Wall, Video wall, Bbpress
+Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Gallery, Embed, Oembed, Embedding,  Embed videos, Embed youtube, Gallery, random videos, Wall, Video wall, Bbpress
 Donate link: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 Requires at least: 3.0
 Tested up to: 4.2
