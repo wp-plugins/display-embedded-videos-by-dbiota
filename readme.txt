@@ -62,7 +62,7 @@ It will show random videos from your site, changing each day. It can make intere
 
 = Are the videos displayed responsive? =
 
-Yes, if you choose to show one per line (just one column).
+Yes.
 
 = Can I add my own CSS to customize the video titles? =
 
