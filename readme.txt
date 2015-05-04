@@ -1,6 +1,6 @@
 === Display Embedded Videos by D.Biota ===
 Contributors: Diegobr
-Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Gallery, Embed, Oembed, Embedding,  Embed videos, Embed youtube, Gallery, random videos, Wall, Video wall, Bbpress, Shortcode
+Tags: Youtube, Vimeo, Video, Embeds, Video Gallery, Gallery, Embed, Oembed, Embedding,  Embed videos, Embed youtube, Gallery, random videos, Wall, Video wall, Bbpress, Shortcode, Responsive
 Donate link: http://www.diegobiota.com/tecnologias-web/wordpress/display-embedded-videos-by-d-biota-wordpress-plugin/
 Requires at least: 3.0
 Tested up to: 4.2
@@ -59,6 +59,10 @@ Once you activate the plugin, it will detect automatically all new videos posted
 = How does the daily_random mode work? =
 
 It will show random videos from your site, changing each day. It can make interesting for your users visiting your site daily.
+
+= Are the videos displayed responsive? =
+
+Yes, if you choose to show one per line (just one column).
 
 = Can I add my own CSS to customize the video titles? =
 
